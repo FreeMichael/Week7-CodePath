@@ -27,7 +27,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Add the javascript in the comment section and after posting the comment click the page to activate XSS onclick.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. Application Denial of Service (DoS)
+3. Application Denial of Service (DoS) (Unpatched)
   - [ ] Summary: 
     - Vulnerability types: DOS attack
     - Tested in version: 4.2
@@ -38,8 +38,11 @@ Time spent: **X** hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
+Reference:https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html
 
+Reference:https://www.exploit-db.com/exploits/36844/
 
+Reference:https://github.com/quitten/doser.py
 
 ## Resources
 
@@ -50,7 +53,7 @@ GIFs created with [giphy](https://giphy.com/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+During testing WPdistillery after performing a buffer overflow attack I ran into the issue of the Virtual Machine breaking. In which I had to reinstall the WPdistillery machine and had to set up everything again.
 
 ## License
 
