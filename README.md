@@ -27,12 +27,12 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Add the javascript in the comment section and after posting the comment click the page to activate XSS onclick.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+3. Application Denial of Service (DoS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: DOS attack
+    - Tested in version: 4.2
+    - Fixed in version: never fixed
+  - [ ] GIF Walkthrough: https://gfycat.com/soulfulsophisticatedbarbet
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
